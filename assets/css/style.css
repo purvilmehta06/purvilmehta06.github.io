@@ -269,7 +269,8 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 160px;
   }
 }
-
+.mapouter{position:relative;text-align:right;height:277px;width:710px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:277px;width:710px;}
 @media (max-width: 500px) {
   #hero {
     
@@ -286,6 +287,15 @@ h1, h2, h3, h4, h5, h6 {
   }
   #more{
     transform: translateX(-150px);
+  }
+  .mapouter{
+    width:300px;
+  }
+  .gmap_canvas{
+    width: 300px;
+  }
+  #hello{
+    width: 300px;
   }
 }
 
