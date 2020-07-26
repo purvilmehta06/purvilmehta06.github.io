@@ -269,8 +269,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left: 160px;
   }
 }
-.mapouter{position:relative;text-align:right;height:277px;width:710px;}
-.gmap_canvas {overflow:hidden;background:none!important;height:277px;width:710px;}
+
 @media (max-width: 500px) {
   #hero {
     
@@ -287,19 +286,6 @@ h1, h2, h3, h4, h5, h6 {
   }
   #more{
     transform: translateX(-150px);
-  }
-  .mapouter{
-    width:300px;
-  }
-  .gmap_canvas{
-    width: 300px;
-  }
-  #hello{
-    width: 300px;
-  }
-  .progress{
-    width: 90%;
-    margin-left: 10px;
   }
 }
 
@@ -488,6 +474,10 @@ section {
 /*--------------------------------------------------------------
 # Akills
 --------------------------------------------------------------*/
+#skills .row.skills-content{
+  width:80%;
+  margin-left: 10%;
+}
 .skills .progress {
   height: 50px;
   display: block;
@@ -1248,3 +1238,33 @@ img:hover{
   left: 45%;
 }
 
+
+.mapouter{position:relative;text-align:right;height:277px;width:710px;}
+.gmap_canvas {overflow:hidden;background:none!important;height:277px;width:710px;}
+@media (max-width: 500px) {
+  #hero {
+    
+    background:
+  linear-gradient(
+    rgba(0, 0, 0, 0.5),
+    rgba(0, 0, 0, 0.5)
+  ),
+  url("../img/1.png");
+  background-position: 4000px 2000px;
+  }
+  #hero p span {
+    color: #064f7a;
+  }
+  #more{
+    transform: translateX(-150px);
+  }
+  .mapouter{
+    width:300px;
+  }
+  .gmap_canvas{
+    width: 300px;
+  }
+  #hello{
+    width: 300px;
+  }
+}
