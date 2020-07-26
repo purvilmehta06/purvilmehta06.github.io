@@ -297,6 +297,10 @@ h1, h2, h3, h4, h5, h6 {
   #hello{
     width: 300px;
   }
+  .progress{
+    width: 90%;
+    margin-left: 10px;
+  }
 }
 
 #hero:before {
